@@ -14,7 +14,7 @@ $bgc3: #233537;
   font-family: 'Roboto', sans-serif;
 }
 
-.banner_wrapper button, .service_wrapper button {
+.banner_wrapper button, .service_wrapper button, .responsive_wrapper1 button {
   border-radius: 9px;
   border: none;
   padding: 18px 45px;
@@ -125,15 +125,35 @@ header {
 
 .design1_wrapper2 {
   margin-top: 100px;
-  img {
-
-  }
 }
 
 //<!--design1 end-->
 
 //<!--responsive start-->
 .responsive {
+  padding: $pd 0;
+}
+
+.responsive_wrapper1 {
+  img {
+  }
+
+  h1 {
+    color: #3f4244;
+    margin-top: 70px;
+  }
+
+  p {
+    font-size: 15px;
+    color: #929ba0;
+    font-weight: 300;
+    margin-top: 50px;
+  }
+
+  button {
+    background: $bgc2;
+    margin-top: 30px;
+  }
 }
 
 //<!--responsive end-->
