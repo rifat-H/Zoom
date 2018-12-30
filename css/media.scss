@@ -4,6 +4,7 @@
   //variables
   $title1: 29px;
   $pd: 40px;
+  $pdb: (40-16) + px;
 
   //global
   .banner_wrapper button {
@@ -105,8 +106,22 @@
     }
   }
 
-
   //<!--design2 end-->
+
+  //<!--numbers start-->
+  .numbers {
+    padding-top: $pd;
+    padding-bottom: $pdb;
+  }
+
+  .numbers_wrapper {
+    h1 {
+      font-size: $title1;
+      margin-top: 15px;
+    }
+  }
+
+  //<!--numbers end-->
 
 }
 
@@ -116,6 +131,7 @@
   //variables
   $title1: 33px;
   $pd: 50px;
+  $pdb: (50-16) + px;
 
   //global
   .banner_wrapper button {
@@ -219,6 +235,21 @@
 
   //<!--design2 end-->
 
+  //<!--numbers start-->
+  .numbers {
+    padding-top: $pd;
+    padding-bottom: $pdb;
+  }
+
+  .numbers_wrapper {
+    h1 {
+      font-size: $title1;
+      margin-top: 15px;
+    }
+  }
+
+  //<!--numbers end-->
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -227,6 +258,7 @@
   //variables
   $title1: 33px;
   $pd: 60px;
+  $pdb: (60-16) + px;
 
   //<!--header start-->
   header {
@@ -305,8 +337,22 @@
     }
   }
 
-
   //<!--design2 end-->
+
+  //<!--numbers start-->
+  .numbers {
+    padding-top: $pd;
+    padding-bottom: $pdb;
+  }
+
+  .numbers_wrapper {
+    h1 {
+      font-size: $title1;
+    }
+  }
+
+  //<!--numbers end-->
+
 
 }
 
@@ -315,6 +361,7 @@
   //variables
   $title1: 39px;
   $pd: 70px;
+  $pdb: (70-16) + px;
 
   //<!--design1 start-->
   .design1 {
@@ -378,4 +425,5 @@
   //variables
   $title1: 40px;
   $pd: 80px;
+  $pdb: (80-16) + px;
 }
