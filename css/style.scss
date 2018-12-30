@@ -14,7 +14,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.banner_wrapper button {
+.banner_wrapper button, .service_wrapper button {
   border-radius: 9px;
   border: none;
   padding: 18px 45px;
@@ -75,6 +75,28 @@ header {
 
 //<!--service start-->
 .service {
+  padding: $pd 0;
+}
+
+.service_wrapper{
+  text-align: center;
+  img{
+    margin-top: 20px;
+  }
+  h6{
+    font-size: 15px;
+    color: #3f4244;
+    margin-top: 25px;
+  }
+  p{
+    font-size: 13px;
+    color: #929ba0;
+    margin-top: 50px;
+  }
+  button{
+    background: $bgc2;
+    margin-top: 50px;
+  }
 }
 
 //<!--service end-->
