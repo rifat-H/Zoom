@@ -239,7 +239,22 @@ header {
 
 //<!--team start-->
 .team {
+  padding: $pd 0;
 }
+
+.team_wrapper1{
+  h1{
+    font-size: $title1;
+    color: #3f4244;
+  }
+  p{
+    font-size: $title2;
+    color: #929ba0;
+    font-weight: 300;
+  }
+}
+
+.team_wrapper2{}
 
 //<!--team end-->
 
