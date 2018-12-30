@@ -20,7 +20,26 @@ body{
 
 
 //<!--header start-->
-header{}
+header{
+  padding: 10px 0;
+
+  ul{
+    li{
+      padding: 0 10px;
+      margin: 0 10px;
+      border-radius: 9px;
+      &:hover{
+        background: $bgc1 !important;
+      }
+      a{
+        font-size: 15px;
+        color: #3f4244;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
 //<!--header end-->
 
 //<!--banner start-->
