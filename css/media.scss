@@ -123,6 +123,19 @@
 
   //<!--numbers end-->
 
+  //<!--team start-->
+  .team {
+    padding: $pd 0;
+  }
+
+  .team_wrapper1 {
+    h1 {
+      font-size: $title1;
+    }
+  }
+
+  //<!--team end-->
+
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -250,6 +263,19 @@
 
   //<!--numbers end-->
 
+  //<!--team start-->
+  .team {
+    padding: $pd 0;
+  }
+
+  .team_wrapper1 {
+    h1 {
+      font-size: $title1;
+    }
+  }
+
+  //<!--team end-->
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -353,6 +379,33 @@
 
   //<!--numbers end-->
 
+  //<!--team start-->
+  .team {
+    padding: $pd 0;
+  }
+
+  .team_wrapper1 {
+    h1 {
+      font-size: $title1;
+    }
+  }
+
+  .team_wrapper2 {
+    margin-top: 15px;
+
+    h6 {
+      //font-size: 20px;
+      padding: 15px 0 0 0;
+    }
+
+    p {
+      font-size: 13px;
+      padding: 12px 14px 13px 14px;
+      margin-bottom: 0;
+    }
+  }
+
+  //<!--team end-->
 
 }
 
@@ -415,8 +468,19 @@
     }
   }
 
-  
   //<!--design2 end-->
+
+  //<!--team start-->
+  .team {
+    padding: $pd 0;
+  }
+
+  .team_wrapper1 {
+    h1 {
+      font-size: $title1;
+    }
+  }
+  //<!--team end-->
 
 }
 

@@ -222,13 +222,15 @@ header {
   padding-bottom: $pdb;
   background-color: $bgc3;
 }
-.numbers_wrapper{
-  h1{
+
+.numbers_wrapper {
+  h1 {
     margin-top: 25px;
     font-size: $title1;
     color: #ffffff;
   }
-  p{
+
+  p {
     margin-top: 5px;
     font-size: 13px;
     color: #10cab7;
@@ -242,19 +244,41 @@ header {
   padding: $pd 0;
 }
 
-.team_wrapper1{
-  h1{
+.team_wrapper1 {
+  h1 {
     font-size: $title1;
     color: #3f4244;
   }
-  p{
+
+  p {
     font-size: $title2;
     color: #929ba0;
     font-weight: 300;
   }
 }
 
-.team_wrapper2{}
+.team_wrapper2 {
+  background: $bgc1;
+  margin-top: 15px;
+
+  h6 {
+    font-size: 20px;
+    color: #3f4244;
+    padding: 20px 0 0 0;
+  }
+
+  span {
+    font-size: 13px;
+    color: #ffffff;
+  }
+
+  p {
+    font-size: 15px;
+    color: #3f4244;
+    padding: 17px 14px 28px 14px;
+    margin-bottom: 0;
+  }
+}
 
 //<!--team end-->
 
