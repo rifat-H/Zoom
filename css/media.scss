@@ -53,6 +53,26 @@
 
   //<!--design1 end-->
 
+  //<!--responsive start-->
+  .responsive {
+    padding: $pd 0;
+  }
+
+  .responsive_wrapper1 {
+    text-align: center;
+    h1 {
+      font-size: $title1;
+    }
+    p{
+      margin-top: 40px;
+    }
+    button{
+      margin-top: 20px;
+    }
+  }
+
+  //<!--responsive end-->
+
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -110,6 +130,26 @@
 
   //<!--design1 end-->
 
+  //<!--responsive start-->
+  .responsive {
+    padding: $pd 0;
+  }
+
+  .responsive_wrapper1 {
+    text-align: center;
+    h1 {
+      font-size: $title1;
+    }
+    p{
+      margin-top: 40px;
+    }
+    button{
+      margin-top: 20px;
+    }
+  }
+
+  //<!--responsive end-->
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -152,6 +192,26 @@
 
   //<!--design1 end-->
 
+  //<!--responsive start-->
+  .responsive {
+    padding: $pd 0;
+  }
+
+  .responsive_wrapper1 {
+    h1 {
+      font-size: $title1;
+      margin-top: 30px;
+    }
+    p{
+      margin-top: 40px;
+    }
+    button{
+      margin-top: 20px;
+    }
+  }
+
+  //<!--responsive end-->
+
 }
 
 // Large devices (desktops, 992px and up)
@@ -175,6 +235,19 @@ $pd: 70px;
     margin-top: 80px;
   }
   //<!--design1 end-->
+
+  //<!--responsive start-->
+  .responsive {
+    padding: $pd 0;
+  }
+
+  .responsive_wrapper1 {
+    h1 {
+      font-size: $title1;
+    }
+  }
+
+  //<!--responsive end-->
 
 }
 
