@@ -1,13 +1,95 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+
+  //varialbes
+
+  //global
+  .banner_wrapper button {
+    padding: 18px 35px;
+  }
+  //global end
+
+  //<!--header start-->
+  header {
+    ul {
+      margin-top: 20px;
+
+      li {
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        margin-left: auto !important;
+      }
+    }
+  }
+  //<!--header end-->
+
+  //<!--banner start-->
+
+  .banner_wrapper {
+    h1 {
+      font-size: 39px;
+    }
+  }
+
+  //<!--banner end-->
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+  //varialbes
+
+  //global
+  .banner_wrapper button {
+    padding: 18px 35px;
+  }
+  //global end
+
+  //<!--header start-->
+  header {
+    ul {
+      margin-top: 20px;
+
+      li {
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        margin-left: auto !important;
+      }
+    }
+  }
+  //<!--header end-->
+
+  //<!--banner start-->
+
+  .banner_wrapper {
+    h1 {
+      font-size: 48px;
+    }
+  }
+
+  //<!--banner end-->
+
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+  //<!--header start-->
+  header {
+    ul {
+      margin-top: 20px;
+
+      li {
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        margin-left: auto !important;
+      }
+    }
+  }
+  //<!--header end-->
 }
 
 // Large devices (desktops, 992px and up)

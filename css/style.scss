@@ -6,32 +6,41 @@ $bgc1: linear-gradient(180deg, #6dffc6 1%, #3fd2ce 99%);
 $bgc2: linear-gradient(172deg, #ff6c54 1%, #ff2b59 99%);
 $bgc3: #233537;
 
-$pd: 80;
+$pd: 80px;
 
 
 //global rules start
-body{
+body {
   font-family: 'Roboto', sans-serif;
 }
 
+.banner_wrapper button {
+  border-radius: 9px;
+  border: none;
+  padding: 18px 45px;
+  font-size: 15px;
+  color: #ffffff;
+}
 
 
 //global rules end
 
 
 //<!--header start-->
-header{
+header {
   padding: 10px 0;
 
-  ul{
-    li{
+  ul {
+    li {
       padding: 0 10px;
       margin: 0 10px;
       border-radius: 9px;
-      &:hover{
+
+      &:hover {
         background: $bgc1 !important;
       }
-      a{
+
+      a {
         font-size: 15px;
         color: #3f4244;
         text-transform: uppercase;
@@ -43,61 +52,107 @@ header{
 //<!--header end-->
 
 //<!--banner start-->
-.banner{}
+.banner {
+  padding-top: 180px;
+  padding-bottom: 190px;
+  background: $bgc1;
+}
+
+.banner_wrapper {
+  h1 {
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 300;
+  }
+
+  button {
+    background: $bgc2;
+    margin-top: 50px;
+  }
+}
+
 //<!--banner end-->
 
 //<!--service start-->
-.service{}
+.service {
+}
+
 //<!--service end-->
 
 //<!--design1 start-->
-.design1{}
+.design1 {
+}
+
 //<!--design1 end-->
 
 //<!--responsive start-->
-.responsive{}
+.responsive {
+}
+
 //<!--responsive end-->
 
 //<!--design2 start-->
-.design2{}
+.design2 {
+}
+
 //<!--design2 end-->
 
 //<!--numbers start-->
-.numbers{}
+.numbers {
+}
+
 //<!--numbers end-->
 
 //<!--team start-->
-.team{}
+.team {
+}
+
 //<!--team end-->
 
 //<!--quote start-->
-.quote{}
+.quote {
+}
+
 //<!--quote end-->
 
 //<!--subscribe start-->
-.subscribe{}
+.subscribe {
+}
+
 //<!--subscribe end-->
 
 //<!--site start-->
-.site{}
+.site {
+}
+
 //<!--site end-->
 
 //<!--modern start-->
-.modern{}
+.modern {
+}
+
 //<!--modern end-->
 
 //<!--clients start-->
-.client{}
+.client {
+}
+
 //<!--clients end-->
 
 //<!--contact start-->
-.contact{}
+.contact {
+}
+
 //<!--contact end-->
 
 //<!--address start-->
-.address{}
+.address {
+}
+
 //<!--address end-->
 
 //<!--footer start-->
-footer{}
+footer {
+}
+
 //<!--footer end-->
