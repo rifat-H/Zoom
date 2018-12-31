@@ -170,6 +170,29 @@
 
   //<!--site end-->
 
+  //<!--modern start-->
+  .modern {
+    padding: $pdb 0;
+    position: static;
+    text-align: center;
+  }
+
+  .modern_wrapper {
+    img{
+    position: static;
+    }
+  //   h5 {
+  //     margin-top: 90px;
+  //     font-size: 25px;
+  //   }
+  //   h6 {
+  //     font-size: 15px;
+  //     margin-bottom: 20px;
+  //   }
+  }
+
+  //<!--modern end-->
+
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -337,6 +360,28 @@
   }
 
   //<!--site end-->
+
+  //<!--modern start-->
+  .modern {
+    padding: $pdb 0;
+  }
+
+  .modern_wrapper {
+    img{
+      top: 110px;
+    }
+  //   h5 {
+  //     margin-top: 90px;
+  //     font-size: 25px;
+  //   }
+  //   h6 {
+  //     font-size: 15px;
+  //     margin-bottom: 20px;
+  //   }
+  }
+
+  //<!--modern end-->
+
 
 }
 
@@ -509,6 +554,19 @@
 
   //<!--site end-->
 
+  //<!--modern start-->
+  .modern {
+    padding: $pd 0;
+  }
+
+  .modern_wrapper {
+    img{
+      top: 90px;
+    }
+  }
+
+  //<!--modern end-->
+
 
 }
 
@@ -613,6 +671,12 @@
   }
 
   //<!--site end-->
+
+  //<!--modern start-->
+  .modern {
+    padding: $pd 0;
+  }
+  //<!--modern end-->
 }
 
 // Extra large devices (large desktops, 1200px and up)
