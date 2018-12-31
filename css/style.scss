@@ -433,6 +433,44 @@ header {
 
 //<!--contact start-->
 .contact {
+  padding: $pd 0;
+  background: $bgc2;
+}
+
+.contact_wrapper1{
+  h1{
+    font-size: $title1;
+    color: #ffffff;
+  }
+  p{
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 300;
+  }
+}
+.contact_wrapper2{
+  margin-top: 80px;
+  input{
+    background: none;
+    border: 1px solid white;
+    padding: 11px 0 11px 20px;
+
+
+    &::placeholder{
+      font-size: 15px;
+      color: #ffffff;
+    }
+  }
+}
+.contact_wrapper3{
+  margin-top: 50px;
+  button{
+    background-color: #313638;
+    border: none;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 15px 0;
+  }
 }
 
 //<!--contact end-->
