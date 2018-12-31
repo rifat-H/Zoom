@@ -12,10 +12,12 @@ $bgc3: #233537;
 //global rules start
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.banner_wrapper button, .service_wrapper button, .responsive_wrapper1 button {
+.banner_wrapper button,
+.service_wrapper button,
+.responsive_wrapper1 button {
   border-radius: 9px;
   border: none;
   padding: 18px 45px;
@@ -284,6 +286,23 @@ header {
 
 //<!--quote start-->
 .quote {
+  padding: $pd 0;
+  background: $bgc2;
+}
+
+.quote_wrapper {
+  img {
+  }
+  h6 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  p {
+    font-size: $title2;
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
 }
 
 //<!--quote end-->
