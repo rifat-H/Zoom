@@ -149,12 +149,26 @@
     h6 {
       font-size: 18px;
     }
-    button{
+    button {
       padding: 11px 41px;
     }
   }
   //<!--subscribe end-->
 
+  //<!--site start-->
+  .site {
+    padding: $pd 0;
+    text-align: center;
+  }
+  .site_wrapper {
+    h4 {
+      margin-top: 40px;
+      margin-bottom: 30px;
+      font-size: 20px;
+    }
+  }
+
+  //<!--site end-->
 
 }
 
@@ -306,6 +320,23 @@
     padding: $pd 0;
   }
   //<!--subscribe end-->
+
+  //<!--site start-->
+  .site {
+    padding: $pd 0;
+  }
+  .site_wrapper {
+    img {
+      margin-top: 80px;
+    }
+    h4 {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      font-size: 20px;
+    }
+  }
+
+  //<!--site end-->
 
 }
 
@@ -461,6 +492,23 @@
   }
   //<!--subscribe end-->
 
+  //<!--site start-->
+  .site {
+    padding: $pd 0;
+  }
+  .site_wrapper {
+    img {
+      margin-top: 80px;
+    }
+    h4 {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      font-size: 20px;
+    }
+  }
+
+  //<!--site end-->
+
 
 }
 
@@ -549,6 +597,22 @@
   }
   //<!--subscribe end-->
 
+  //<!--site start-->
+  .site {
+    padding: $pd 0;
+  }
+  .site_wrapper {
+    img {
+      margin-top: 10px;
+    }
+    h4 {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      font-size: 20px;
+    }
+  }
+
+  //<!--site end-->
 }
 
 // Extra large devices (large desktops, 1200px and up)
