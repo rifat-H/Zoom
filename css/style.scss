@@ -333,6 +333,20 @@ header {
 
 //<!--site start-->
 .site {
+  padding: $pd 0;
+}
+.site_wrapper {
+  img {
+  }
+  h4 {
+    margin: 30px 0;
+    font-size: 20px;
+    color: #3f4244;
+  }
+  p {
+    font-size: 13px;
+    color: #929ba0;
+  }
 }
 
 //<!--site end-->
