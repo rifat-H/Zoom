@@ -1,14 +1,4 @@
-//variables
-
-$title1: 40px;
-$title2: 13px;
-$pd: 80px;
-$pdb: (80-16) + px;
-
-$bgc1: linear-gradient(180deg, #6dffc6 1%, #3fd2ce 99%);
-$bgc2: linear-gradient(172deg, #ff6c54 1%, #ff2b59 99%);
-$bgc3: #233537;
-
+@import "variables";
 //global rules start
 
 * {
