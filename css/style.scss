@@ -494,14 +494,21 @@ header {
 
 //<!--contact end-->
 
-//<!--address start-->
-.address {
-}
-
-//<!--address end-->
-
 //<!--footer start-->
 footer {
+  padding-top: 30px;
+  padding-bottom: (30-16)+px;
+  background-color: #2A383A;
+}
+
+.footer_wrapper{
+  p{
+    font-size: 15px;
+    color: #ffffff;
+    span{
+      color: #10cab7;
+    }
+  }
 }
 
 //<!--footer end-->
