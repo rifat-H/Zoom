@@ -352,12 +352,39 @@ header {
 
 //<!--modern start-->
 .modern {
+  padding: $pd 0;
+  background: $bgc1;
+
+}
+
+.modern_wrapper {
+  margin-top: 20px;
+  position: relative;
+  img{
+    position: absolute;
+    top: -50px;
+  }
+  h5 {
+    margin-top: 90px;
+    font-size: 25px;
+    color: #ffffff;
+  }
+  h6 {
+    font-size: 15px;
+    color: #243638;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 13px;
+    color: #ffffff;
+  }
 }
 
 //<!--modern end-->
 
 //<!--clients start-->
 .client {
+  padding: $pd 0;
 }
 
 //<!--clients end-->
