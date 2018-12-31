@@ -178,20 +178,18 @@
   }
 
   .modern_wrapper {
-    img{
-    position: static;
+    img {
+      position: static;
     }
-  //   h5 {
-  //     margin-top: 90px;
-  //     font-size: 25px;
-  //   }
-  //   h6 {
-  //     font-size: 15px;
-  //     margin-bottom: 20px;
-  //   }
+
+    //<!--modern end-->
   }
 
-  //<!--modern end-->
+  //<!--clients start-->
+  .clients {
+    padding: $pd 0;
+  }
+  //<!--clients end-->
 
 }
 
@@ -367,22 +365,19 @@
   }
 
   .modern_wrapper {
-    img{
+    img {
       top: 110px;
     }
-  //   h5 {
-  //     margin-top: 90px;
-  //     font-size: 25px;
-  //   }
-  //   h6 {
-  //     font-size: 15px;
-  //     margin-bottom: 20px;
-  //   }
   }
 
   //<!--modern end-->
 
-
+  //<!--clients start-->
+  .clients {
+    padding-top: 120px;
+    padding-bottom: $pd;
+  }
+  //<!--clients end-->
 }
 
 // Medium devices (tablets, 768px and up)
@@ -560,14 +555,19 @@
   }
 
   .modern_wrapper {
-    img{
+    img {
       top: 90px;
     }
   }
 
   //<!--modern end-->
 
-
+  //<!--clients start-->
+  .clients {
+    padding-top: 120px;
+    padding-bottom: $pd;
+  }
+  //<!--clients end-->
 }
 
 // Large devices (desktops, 992px and up)
@@ -677,6 +677,13 @@
     padding: $pd 0;
   }
   //<!--modern end-->
+
+  //<!--clients start-->
+  .clients {
+    padding-top: 120px;
+    padding-bottom: $pd;
+  }
+  //<!--clients end-->
 }
 
 // Extra large devices (large desktops, 1200px and up)
