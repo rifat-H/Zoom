@@ -354,12 +354,11 @@ header {
 .modern {
   padding: $pd 0;
   background: $bgc1;
-
 }
 
 .modern_wrapper {
   position: relative;
-  img{
+  img {
     position: absolute;
     top: -50px;
   }
@@ -382,8 +381,40 @@ header {
 //<!--modern end-->
 
 //<!--clients start-->
-.client {
-  padding: $pd 0;
+.clients {
+  padding-top: 120px;
+  padding-bottom: $pd;
+}
+
+.clients_wrapper1 {
+  h1 {
+    font-size: $title1;
+    color: #3f4244;
+  }
+  p {
+    font-size: $title2;
+    color: #929ba0;
+    font-weight: 300;
+  }
+}
+
+.clients_wrapper2 {
+  padding: 40px 30px;
+  margin-top: 40px;
+  background: $bgc1;
+  h5 {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  h6 {
+    font-size: 13px;
+    color: #243638;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 13px;
+    color: #ffffff;
+  }
 }
 
 //<!--clients end-->
