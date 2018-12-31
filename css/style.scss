@@ -437,34 +437,53 @@ header {
   background: $bgc2;
 }
 
-.contact_wrapper1{
-  h1{
+.contact_wrapper1 {
+  h1 {
     font-size: $title1;
     color: #ffffff;
   }
-  p{
+
+  p {
     font-size: 13px;
     color: #ffffff;
     font-weight: 300;
   }
 }
-.contact_wrapper2{
+
+.contact_wrapper2 {
   margin-top: 80px;
-  input{
+
+  input {
     background: none;
     border: 1px solid white;
     padding: 11px 0 11px 20px;
+    margin-top: 20px;
 
-
-    &::placeholder{
+    &::placeholder {
       font-size: 15px;
       color: #ffffff;
     }
   }
+
+  textarea {
+    background: none;
+    border: 1px solid white;
+    padding: 11px 0 11px 20px;
+    height: 50px;
+    margin-top: 20px;
+
+    &::placeholder {
+      font-size: 15px;
+      color: #ffffff;
+    }
+  }
+
 }
-.contact_wrapper3{
+
+.contact_wrapper3 {
   margin-top: 50px;
-  button{
+
+  button {
     background-color: #313638;
     border: none;
     font-size: 15px;

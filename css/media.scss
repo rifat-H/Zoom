@@ -149,6 +149,7 @@
     h6 {
       font-size: 18px;
     }
+
     button {
       padding: 11px 41px;
     }
@@ -190,6 +191,27 @@
     padding: $pd 0;
   }
   //<!--clients end-->
+
+  //<!--contact start-->
+  .contact {
+    padding: $pd 0;
+  }
+
+  .contact_wrapper1 {
+    h1 {
+      font-size: $title1;
+    }
+  }
+
+  .contact_wrapper2 {
+    margin-top: 30px;
+
+    textarea {
+      height: 200px;
+    }
+  }
+
+  //<!--contact end-->
 
 }
 
@@ -350,6 +372,7 @@
     img {
       margin-top: 80px;
     }
+
     h4 {
       margin-top: 20px;
       margin-bottom: 30px;
@@ -378,6 +401,28 @@
     padding-bottom: $pd;
   }
   //<!--clients end-->
+
+  //<!--contact start-->
+  .contact {
+    padding: $pd 0;
+  }
+
+  .contact_wrapper1 {
+    h1 {
+      font-size: $title1;
+    }
+  }
+
+  .contact_wrapper2 {
+    margin-top: 40px;
+
+    textarea {
+      height: 200px;
+    }
+  }
+
+  //<!--contact end-->
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -540,6 +585,7 @@
     img {
       margin-top: 80px;
     }
+
     h4 {
       margin-top: 20px;
       margin-bottom: 30px;
@@ -568,6 +614,32 @@
     padding-bottom: $pd;
   }
   //<!--clients end-->
+
+  //<!--contact start-->
+  .contact {
+    padding: $pd 0;
+  }
+
+  .contact_wrapper1 {
+    h1 {
+      font-size: $title1;
+    }
+  }
+  .contact_wrapper2 {
+    margin-top: 50px;
+
+    textarea {
+      height: 110px;
+    }
+  }
+
+  .contact_wrapper3 {
+    button {
+      font-size: 13px;
+    }
+  }
+  //<!--contact end-->
+
 }
 
 // Large devices (desktops, 992px and up)
@@ -663,6 +735,7 @@
     img {
       margin-top: 10px;
     }
+
     h4 {
       margin-top: 20px;
       margin-bottom: 30px;
@@ -684,6 +757,19 @@
     padding-bottom: $pd;
   }
   //<!--clients end-->
+
+  //<!--contact start-->
+  .contact {
+    padding: $pd 0;
+  }
+
+  .contact_wrapper1 {
+    h1 {
+      font-size: $title1;
+    }
+  }
+  //<!--contact end-->
+
 }
 
 // Extra large devices (large desktops, 1200px and up)
